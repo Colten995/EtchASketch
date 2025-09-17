@@ -1,10 +1,10 @@
 /* div children of container element */
 #container div{
     background-color: red;
-    width: 6.25%; /* each box occupies 1/16th of space */
-    height: 6.25%;
+    /* width: 6.25%; each box occupies 1/16th of space */
+    /* height: 6.25%; */
     border: 2px solid black;
-    flex: 0 0 6.25%;
+    /* flex: 0 0 6.25%; */
     box-sizing: border-box; /*includes the boxes border in it's sizing calculations*/
 }
 
@@ -12,7 +12,7 @@
     display: flex;
     flex-wrap: wrap; /* this ensures the boxes stay within the container */
     background-color: blue;
-    border: 2px solid black;
+    /* border: 2px solid black;
     height: 750px;
-    width: 750px;
+    width: 750px; */
 }
